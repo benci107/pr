@@ -76,3 +76,4 @@ end
 gem "dotenv"
 gem "bullet"
 gem 'rollbar'
+gem "haml-rails"
