@@ -1,0 +1,6 @@
+%h1.mb-3= 'User'
+
+=link_to "Back to list", users_path, class: "btn btn-dark"
+%p created_at =  #{@user.created_at.strftime("%d.%m.%Y")}
+%H3 full_name = #{user_full_name(@user.first_name,  @user.last_name)}
+%H3 Organization = @user.organizaion

@@ -6,6 +6,6 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 10.times do |i|
-    User.create(name:"User#{i}")
+    User.create(name:"Test #{i}",first_name:"User #{i}",last_name:"User_last #{i}")
    end
    
